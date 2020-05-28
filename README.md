@@ -31,7 +31,7 @@ Either git-clone this repository or download the tarball + uncompress & untar it
 To run SAM you just need to issue a docker-compose command. Simpler yet, use the wrapper *start.sh* and *stop.sh* scritps we provide for your convenience. Type the following at the prompt:
 
 ```
-$ cd SAM-<version>
+$ cd sam-<version>
 $ ./start.sh
 ```
    
