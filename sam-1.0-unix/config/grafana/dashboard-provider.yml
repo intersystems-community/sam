@@ -1,0 +1,14 @@
+apiVersion: 1
+
+providers:
+- name: 'SAM Dashboard Provider'
+  orgId: 1
+  folder: 'SAM Manager'
+  folderUid: '1'
+  type: file
+  disableDeletion: true
+  editable: true
+  updateIntervalSeconds: 86400
+  allowUiUpdates: true
+  options:
+    path: /var/lib/grafana/dashboards

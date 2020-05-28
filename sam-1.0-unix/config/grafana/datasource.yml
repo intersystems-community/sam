@@ -1,0 +1,9 @@
+apiVersion: 1
+
+datasources:
+  - name: SAM Collector
+    type: prometheus
+    access: proxy
+    url: http://iris:52773/api/sam/private/prometheus
+    isDefault: true
+    editable: false
