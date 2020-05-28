@@ -1,0 +1,20 @@
+route:
+  group_by: [...]
+  group_wait: 0s
+  group_interval: 1s
+  repeat_interval: 2m
+  receiver: isc_sam_default
+
+inhibit_rules:
+- source_match:
+    severity: 'critical'
+  target_match:
+    severity: 'warning'
+  equal: ['alertname', 'instance']
+
+receivers:
+- name: 'isc_sam_default'
+  webhook_configs:
+  - url: http://iris:52773/api/sam/private/alerts
+    send_resolved: false
+################### DO NOT EDIT ABOVE THIS LINE! ###################

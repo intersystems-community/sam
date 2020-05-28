@@ -1,0 +1,8 @@
+groups:
+- name: isc_reserved
+  rules:
+  - alert: iris_system_alerts
+    annotations:
+      description: 'WARNING: Removing this rule will disable the handling of InterSystems
+        IRIS System Monitor text alerts!'
+    expr: (idelta(iris_system_alerts_log[5m]) != 0) or (iris_system_alerts_new > 0)
