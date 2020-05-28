@@ -23,7 +23,7 @@ There are 3 requirements for a successful automated run of SAM:
 
 
 ## CLONE or DOWNLOAD the TARBALL
-Either clone this repository or download the tarball + uncompress & untar it, as shown below  
+Either git-clone this repository or download the tarball + uncompress & untar it, as shown below  
    ```$ tar zpxvf sam-<version>.tar.gz```
 
 
