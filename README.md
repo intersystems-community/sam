@@ -22,8 +22,8 @@ There are 3 requirements for a successful automated run of SAM:
    3. Have access to Docker Hub (https://hub.docker.com/). If you do not have an account, you must create one.
 
 
-## UNZIP AND UNTAR
-Uncompress the distribution file, as shown below  
+## CLONE or DOWNLOAD the TARBALL
+Either clone this repository or download the tarball + uncompress & untar it, as shown below  
    ```$ tar zpxvf sam-<version>.tar.gz```
 
 
