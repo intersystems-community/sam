@@ -1,5 +1,5 @@
 # System Alerting and Monitoring (SAM) 
-System Alerting and Monitoring or SAM is an easy-to-use cluster monitoring solution for InterSystems IRIS® data platform version 2019.4 and later. 
+System Alerting and Monitoring or SAM is an easy-to-use cluster monitoring solution for InterSystems IRIS® data platform version 2020.1 and later. 
 SAM leverages the open-source technologies Prometheus and Grafana, augmenting their features with enterprise resiliency to provides a cohesive view of your application infrastructure.
 
 You can deploy SAM by running one *docker-compose* command. The docker-compose.yml file defines all the needed containers and components, 
