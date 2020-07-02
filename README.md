@@ -16,20 +16,20 @@ There are 3 requirements for a successful automated run of SAM:
       	- [Docker Desktop for Windows](https://docs.docker.com/docker-for-windows/install/)   
       	- [Docker Desktop for Mac](https://docs.docker.com/docker-for-mac/install/)  
    2. Have access to the InterSystems SAM container in a container registry.
-      You can pull InterSystems SAM Community Edition container from  
-      - [InterSystems WRC download page](https://wrc.intersystems.com/wrc/coDistribution.csp) (select the Preview button) or  
-      - [Docker Hub](https://hub.docker.com/_/intersystems-system-alerting-and-monitoring)  
-   3. Have access to Docker Hub (https://hub.docker.com/). If you do not have an account, you must create one.
+      You can download InterSystems SAM Community Edition container from  
+      - [InterSystems WRC download page](https://wrc.intersystems.com/wrc/coDistribution.csp) (select the Containers button) or  
+      - pull it from [Docker Hub](https://hub.docker.com/_/intersystems-system-alerting-and-monitoring)  
+   3. Have access to Docker Hub (https://hub.docker.com/). If you do not have an account, you should create one.
 
 
 ## CLONE or DOWNLOAD the TARBALL
 Either git-clone this repository or download the tarball + uncompress & untar it, as shown below  
-- please make sure to include the ```p``` switch below as to maintain the correct file privileges  
+- please make sure to include the **p** switch below as to maintain the correct file privileges  
    ```$ tar zpxvf sam-<version>.tar.gz```
 
 
 ## RUN THE DOCKER-COMPOSE BUNDLE
-To run SAM you just need to issue a docker-compose command. Simpler yet, use the wrapper *start.sh* and *stop.sh* scritps we provide for your convenience. Type the following at the prompt:
+To run SAM you just need to issue a *docker-compose* command. Simpler yet, use the wrapper *start.sh* and *stop.sh* scritps we provide for your convenience. Type the following at the prompt:
 
 ```
 $ cd sam-<version>
@@ -48,7 +48,7 @@ Creating sam_alertmanager_1 ... done
 Creating sam_nginx_1      ... done  
 ```   
    
-You can verify that all four containers are running by via docker ps, such as:
+You can verify that all four containers are running by via *docker ps*, such as:
 ```  
 $ docker ps
 CONTAINER ID        IMAGE                                               COMMAND                  CREATED              STATUS                        PORTS                                                  NAMES
