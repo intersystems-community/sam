@@ -15,11 +15,11 @@ There are 3 requirements for a successful automated run of SAM:
       * On desktops, Docker Compose is included with Docker Desktop, so by installing it you have all the necessary components. Head over to the respective platform link if you need to install it:  
       	- [Docker Desktop for Windows](https://docs.docker.com/docker-for-windows/install/)   
       	- [Docker Desktop for Mac](https://docs.docker.com/docker-for-mac/install/)  
-   2. Have access to the InterSystems SAM container in a container registry.
+   2. Have access to the InterSystems SAM container in a container registry.  
       You can download InterSystems SAM Community Edition container from  
-      - [InterSystems WRC download page](https://wrc.intersystems.com/wrc/coDistribution.csp) (select the Containers button) or  
+      - [InterSystems WRC download page](https://wrc.intersystems.com/wrc/coDistContainers.csp) or  
       - pull it from [Docker Hub](https://hub.docker.com/_/intersystems-system-alerting-and-monitoring)  
-   3. Have access to Docker Hub (https://hub.docker.com/). If you do not have an account, you should create one.
+   3. Have access to Docker Hub (https://hub.docker.com/). If you do not have an account, you should create one as the composition will be pulling other containers.
 
 
 ## CLONE or DOWNLOAD the TARBALL
