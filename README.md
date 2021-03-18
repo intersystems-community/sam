@@ -8,6 +8,9 @@ making SAM easy to set up.
 For the complete documentation, visit the [System Alerting and Monitoring guide](https://docs.intersystems.com/sam/csp/docbook/Doc.View.cls?KEY=ASAM).
 
 
+![SAM screenshot](img/1-SAM-cluster-singlenodeissue.jpg)
+
+
 ## PREPARE TO PULL CONTAINERS
 There are 3 requirements for a successful automated run of SAM:  
    1. Have Docker Compose v1.25+ installed on the Docker Engine v19.3+. Depending on your platform:  
